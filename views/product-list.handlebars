@@ -1,0 +1,20 @@
+<div class="container w-50 bg-light">
+    <h1 class="mb-5 text-white bg-dark p-2">Product's list</h1>
+
+    {{#each products}}
+
+        ID: {{id}} <br>
+        Name: {{name}} <br>
+        Description: {{description}} <br>
+        CreatedAt: {{createdAt}} <br>
+
+        <a href="/api/del-product/{{id}}"><button class="btn btn-danger mt-3">Delete</button></a>
+        {{!-- <a href="/edit-product/"><button class="btn btn-secondary mt-3">Edit</button></a> --}}
+        <hr>
+    {{/each}}
+
+    <div class="text-center mt-5">
+        <a href="/"><button class="btn btn-dark p-2 w-25">Homepage</button></a>
+        <a href="/api/form"><button class="btn btn-success p-2 w-auto">Register another product</button></a>
+    </div>
+</div>

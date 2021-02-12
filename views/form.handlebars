@@ -1,0 +1,22 @@
+<div class="container w-50 bg-light">
+    <h1 class="mb-5 text-white bg-dark p-2">Product registration page</h1>
+
+    <form action="/api/cad-product" method="POST">
+        <div class="mb-3 w-50">
+            <label for="nameid" class="form-label">Product's name</label>
+            <input type="text" class="form-control" name="name" id="nameid">
+        </div>
+
+        <div class="mb-3 w-50">
+            <label for="desc" class="form-label">Product's description</label>
+            <input type="text" class="form-control" name="description" id="desc">
+        </div>
+
+        <button class="btn btn-primary ">Register</button>
+    </form>
+
+    <div class="text-center mt-5">
+        <a href="/"><button class="btn btn-dark p-2 w-25">Homepage</button></a>
+        <a href="/api/list-product"><button class="btn btn-success p-2 text-white"> Product's list</button></a>
+    </div>
+</div>

@@ -1,11 +1,11 @@
 # Projeto de estudos sobre Node - Desenvolvimento de uma API / CRUD
 
-![]('/images/api-product.png')
+![]('./images/api-product.png')
 
 
 Esse projeto foi desenvolvido com o intuito de aprender novas tecnologias e praticar as mesmas.
 
-Na construção desse projeto foi utilizado o Design Patern MVC para melhor organização do código e posteriormente uma fácil manutenção do mesmo. 
+Na construção desse projeto foi utilizado o Design Pattern MVC para melhor organização do código e posteriormente uma fácil manutenção do mesmo. 
 
 
 ## Foram utilizadas as seguintes tecnologias no desenvolvimento:

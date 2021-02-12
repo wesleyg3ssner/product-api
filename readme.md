@@ -1,6 +1,6 @@
 # Projeto de estudos sobre Node - Desenvolvimento de uma API / CRUD
 
-![]('/images/api-product.png')
+<img src="./images/api-product.png">
 
 
 Esse projeto foi desenvolvido com o intuito de aprender novas tecnologias e praticar as mesmas.

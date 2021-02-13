@@ -45,10 +45,12 @@ Caso esteja tudo instalado corretamente siga os passos abaixo:
 	- **user** - coloque o nome de usuário do seu db
 	- **password** - sua senha de entrada do banco db
 
-		const sequelize = new Sequelize('database', 'user', 'password', {
+	```js
+	const sequelize = new Sequelize('database', 'user', 'password', {
 			hostname: 'localhost',
 			dialect: 'mysql'
 		})
+	```
 
 4. Dentro da pasta **models**, no arquivo **ProductModel** descomente a linha que está comentada e rode o comando `node ProductModel.js` pelo terminal pelo menos uma vez para que o model seja criado, após isso comente a linha novamente para que o model não seja criado toda hora. 
 

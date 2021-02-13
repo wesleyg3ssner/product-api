@@ -41,9 +41,9 @@ Caso esteja tudo instalado corretamente siga os passos abaixo:
 
 	Altere as seguintes informações de acordo com as configurações do seu banco de dados mysql:
 
-	**database** - coloque o nome do seu banco de dados (você deve criar um)
-	**user** - coloque o nome de usuário do seu db
-	**password** - sua senha de entrada do banco db
+	- **database** - coloque o nome do seu banco de dados (você deve criar um)
+	- **user** - coloque o nome de usuário do seu db
+	- **password** - sua senha de entrada do banco db
 
 		const sequelize = new Sequelize('database', 'user', 'password', {
 			hostname: 'localhost',

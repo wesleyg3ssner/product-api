@@ -41,16 +41,16 @@ Caso esteja tudo instalado corretamente siga os passos abaixo:
 
 	Altere as seguintes informações de acordo com as configurações do seu banco de dados mysql:
 
-	**database** - coloque o nome do seu banco de dados
+	**database** - coloque o nome do seu banco de dados (você deve criar um)
 	**user** - coloque o nome de usuário do seu db
-	**password** - sua senha de entrada do banco db*
+	**password** - sua senha de entrada do banco db
 
 		const sequelize = new Sequelize('database', 'user', 'password', {
 			hostname: 'localhost',
 			dialect: 'mysql'
 		})
 
-4. Dentro da pasta models, no arquivo ProductModel descomente a linha comentada e rode o comando `node ProductModel.js` nesse arquivo pelo menos uma vez para que o model seja criado, após isso comente a linha novamente. 
+4. Dentro da pasta **models**, no arquivo **ProductModel** descomente a linha que está comentada e rode o comando `node ProductModel.js` pelo terminal pelo menos uma vez para que o model seja criado, após isso comente a linha novamente para que o model não seja criado toda hora. 
 
 5. Volte a pasta raiz do projeto e rode o comando `node app.js` e entrar na url: http://localhost:8080
 

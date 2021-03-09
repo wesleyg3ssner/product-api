@@ -1,4 +1,4 @@
-# Projeto de estudos sobre Node - Desenvolvimento de uma API / CRUD
+# API / CRUD
 
 <img src="./images/api-product.png">
 
